@@ -205,7 +205,7 @@ bottom-user {
 
 
 /* cards */
-/* .dashboard {
+.dashboard {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
@@ -243,7 +243,7 @@ h2 {
 
 .down {
     color: #ff6e6e;
-} */
+}
 
 /* Charts */
 /* .charts {
