@@ -52,7 +52,7 @@
       margin-bottom: 30px;
     }
 
-    .cards-grid {
+    .cards-boxs {
   
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -63,12 +63,12 @@
       background: #171e2f;
       padding: 22px 24px;
       border-radius: 10px;
-      box-shadow: 0 2px 8px #10111b33;
+      box-shadow: 2px 8px #10111b33;
       min-height: 100px;
     }
-    .card-title {
-      font-size: 1.17rem;
-      font-weight: 500;
+    .card-name {
+      font-size: 20px;
+      font-weight: bold;
       margin-bottom: 6px;
     }
     .faq-section {
