@@ -30,10 +30,8 @@
       padding: 12px 18px;
       font-size: 1rem;
       border-radius: 8px;
-      border: none;
       background: #232a3c;
       color: white;
-      outline: none;
     }
     .Button {
       display: flex;
