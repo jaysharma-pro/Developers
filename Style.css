@@ -3,11 +3,11 @@
       background: #121826;
       color: white;
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
     }
     /* Main body */
     .body {
+      justify-content: center;
+      align-items: center;
       max-width: 1100px;
       margin: 30px auto 0;
       padding: 20px;
@@ -21,6 +21,7 @@
       margin: 18px 0 12px 0;
     }
     .Title {
+
       font-size: 32px;
       font-weight: bold;
     }
