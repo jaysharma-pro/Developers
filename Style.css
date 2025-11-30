@@ -40,6 +40,9 @@
       justify-content: center;
       gap: 16px;
     }
+    .click:hover{
+      background-color: lightskyblue;
+    }
     .click {
       background: #171e2f;
       border-radius: 6px;
