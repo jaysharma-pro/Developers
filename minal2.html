@@ -84,7 +84,7 @@
         </div>
         <div class="cards">
             <div class="panel">
-                <h3>Riders</h3>
+                <h3>Cars/Bikes</h3>
                 <div class="list">
                     <div class="item"><span>02-09-2025</span><strong>₹120</strong></div>
                     <div class="item"><span>28-11-2025</span><strong>₹30</strong></div>
@@ -101,7 +101,7 @@
                 <div class="total">Total: ₹75,000</div>
             </div>
             <div class="panel">
-                <h3>Bus / Train Tickets</h3>
+                <h3>Buses</h3>
                 <div class="list">
                     <div class="item"><span>09-09-2025</span><strong>₹30</strong></div>
                     <div class="item"><span>11-11-2025</span><strong>₹80</strong></div>
@@ -110,9 +110,13 @@
                 <div class="total">Total: ₹138</div>
             </div>
             <div class="panel">
-                <h3>Saved (placeholder)</h3>
-                <div style="height:150px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-weight:700">
-                    No saved items yet
+                <h3>Trains</h3>
+                    <div class="list">
+                    <div class="item"><span>07-09-2025</span><strong>₹40</strong></div>
+                    <div class="item"><span>17-11-2025</span><strong>₹55</strong></div>
+                    <div class="item"><span>22-12-2025</span><strong>₹200</strong></div>
+                </div>
+                 <div class="total">Total: ₹295</div>
                 </div>
             </div>
         </div>
@@ -140,42 +144,5 @@
             </div>
         </div>
     </div>
-
-    <script>
-
-        document.getElementById('depositBtn').addEventListener('click', function() {
-            alert('Deposit functionality would go here');
-        });
-
-        document.getElementById('withdrawBtn').addEventListener('click', function() {
-            alert('Withdrawal functionality would go here');
-        });
-
-        document.getElementById('searchBtn').addEventListener('click', function() {
-            const from = document.getElementById('fromInput').value;
-            const to = document.getElementById('toInput').value;
-            const date = document.getElementById('dateInput').value;
-            const type = document.getElementById('tripType').value;
-            const cls = document.getElementById('tripClass').value;
-            
-            if (!from || !to || !date) {
-                alert('Please fill in all fields');
-                return;
-            }
-            
-            alert(`Searching for ${type} (${cls}) from ${from} to ${to} on ${date}`);
-        });
-
-        document.getElementById('sendBtn').addEventListener('click', function() {
-            alert('Send money functionality would go here');
-        });
-
-        document.getElementById('requestBtn').addEventListener('click', function() {
-            alert('Request money functionality would go here');
-        });
-
-        // Set today's date as default for the date input
-        document.getElementById('dateInput').valueAsDate = new Date();
-    </script>
 </body>
 </html>
