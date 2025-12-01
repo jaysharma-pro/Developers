@@ -1,9 +1,96 @@
 
-      body {
-      background: #121826;
+      .body {
+      background-color: #0d1117;
       color: white;
       font-family: Arial, sans-serif;
     }
+    .menu-btn {
+    position: absolute;
+    top: 14px;
+    left: 5px;
+    background: #4c55ff;
+    border: none;
+    padding: 9px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 1001;
+    
+}
+
+/* Sidebar Hidden by Default */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #0f172a;
+    position: fixed;
+    top: 0;
+    left: -300px; /* Hidden */
+    padding: 20px;
+    transition: 0.3s ease;
+}
+
+/* Sidebar When Open */
+.sidebar.open {
+    left: 0;
+}
+
+/* Logo Section */
+.frist {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.frist img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Menu Items */
+.menu-item {
+    padding: 12px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.menu-item:hover {
+    background: #0f172a;
+}
+
+.menu-item.active {
+    background: #0f172a;
+}
+
+/* Settings */
+.settings {
+    margin-top: 20px;
+    padding: 12px;
+    background: #2c2c3b;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Bottom User */
+.bottom-user {
+    position: absolute;
+    bottom: 20px;
+    width: 200px;
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    background: #2c2c3b;
+    border-radius: 6px;
+}
     /* Main body */
     .body {
       justify-content: center;
