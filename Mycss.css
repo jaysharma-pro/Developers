@@ -1,0 +1,176 @@
+body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0d1117;
+            color: #ffffff;
+        }
+
+        
+        main {
+            padding: 30px 40px;
+        }
+
+        h1 {
+            margin: 0 0 20px 0;
+            font-size: 24px;
+        }
+
+        .content {
+            display: flex;
+            gap: 20px;
+        }
+
+       
+        .map-box {
+            flex: 2;
+            background-color: #d3d3d3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 320px;
+            color: #555555;
+            font-size: 24px;
+        }
+
+
+        .right-side {
+            flex: 1.7;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .card {
+            background-color: #111827;
+            border-radius: 6px;
+            padding: 16px 18px;
+            font-size: 13px;
+        }
+
+        .card-title {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .ride-type {
+            font-size: 12px;
+            margin-bottom: 6px;
+        }
+
+        .ride-heading {
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        .small-text {
+            font-size: 11px;
+            color: #9ca3af;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 8px;
+            margin-top: 12px;
+        }
+
+        .label {
+            font-size: 11px;
+            color: #9ca3af;
+        }
+
+        .value {
+            font-size: 12px;
+        }
+
+        .driver-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .driver-photo {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            background-color: #374151;
+        }
+
+        .fare-row {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 6px;
+            font-size: 12px;
+        }
+
+        .total-row {
+            border-top: 1px solid #1f2933;
+            margin-top: 10px;
+            padding-top: 10px;
+            font-weight: bold;
+        }
+
+    
+        .payment-opt {
+            border: 1px solid #1f2933;
+            border-radius: 6px;
+            padding: 10px;
+            margin-top: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+        }
+
+        .payment-opt input {
+            margin: 0;
+        }
+
+        .payment-name {
+            font-weight: 600;
+        }
+
+        .add-method {
+            margin-top: 10px;
+            font-size: 11px;
+            color: #3b82f6;
+            cursor: pointer;
+        }
+
+
+        .buttons {
+            margin-top: 25px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .but-fir {
+            flex: 1;
+            padding: 12px;
+            border-radius: 4px;
+            border: none;
+            background-color: #2563eb;
+            color: #ffffff;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .but-sec {
+            padding: 12px 20px;
+            border-radius: 4px;
+            border: none;
+            background-color: #111827;
+            color: #9ca3af;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .but-fir:hover {
+            opacity: 0.9;
+        }
+
+        .but-sec:hover {
+            background-color: #1f2933;
+        }

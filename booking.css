@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #3793dd;
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #174470;
+    color: #fff;
+}
+
+.navbar nav a {
+    margin-right: 20px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.login-btn {
+    padding: 8px 15px;
+    background: #1d66ff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Main container */
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+/* Left search panel */
+.search-box {
+    width: 30%;
+    background: #91b6d3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.search-box input,
+.search-box select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-btn {
+    width: 100%;
+    padding: 12px;
+    background: #1d66ff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Right results */
+.results {
+    width: 70%;
+    padding-left: 20px;
+}
+
+/* Card styling */
+.card {
+    display: flex;
+    justify-content: space-between;
+    background: #134870;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.red { background: #c62828; }
+.green { background: #2e7d32; }
+
+.book-btn {
+    padding: 10px 15px;
+    background: #1d66ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.no-results {
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 20px;
+}
