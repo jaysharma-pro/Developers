@@ -145,7 +145,8 @@ transition: all 0.2s;
 }
 .search-btn:hover {
 transform: translateY(-1px);
-box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+box-shadow: 0 4px 8px rgba(123, 85, 85, 0.2);
+background-color:antiquewhite;
 }
 .cards { 
 grid-column: 2; 
